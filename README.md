@@ -29,7 +29,12 @@ Clone the repository :
 Get into the repository and compile the example :
 <code>
 	cd lmic_chisterapi
-	make all	
+</code>
+
+Modify APPEUI, DEVEUI and DEVKEY with yours :
+<code>
+    nano src/OTAA_JoinAndTransmit.c
+    make all	
 </code>
 
 Execute the example :

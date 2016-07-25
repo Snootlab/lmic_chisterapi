@@ -72,8 +72,8 @@ void onEvent (ev_t ev)
     switch(ev) 
     {
         case EV_JOINING:
-	        fprintf(stdout, "Joining .........................................\n");
-	        break;
+            fprintf(stdout, "Joining .........................................\n");
+            break;
         case EV_JOINED:
             fprintf(stdout, "Joined ..........................................\n");
             
@@ -83,7 +83,7 @@ void onEvent (ev_t ev)
              */
             LMIC.frame[0] = 42;
             LMIC_setTxData2(1, LMIC.frame, 1, 0);
-	        break;
+            break;
         case EV_TXCOMPLETE:
             fprintf(stdout, "TX complete .....................................\n");
             break;
