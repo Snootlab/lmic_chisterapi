@@ -10,7 +10,7 @@ ChisteraPi + accessories LorA : https://snootlab.com/shields-snootlab/1152-.html
 
 Forums
 -------
-Visit ou specific forum at :
+Visit our specific forum at :
 http://forum.snootlab.com/viewforum.php?f=59
 
 Links
