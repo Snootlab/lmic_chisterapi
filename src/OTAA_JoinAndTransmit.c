@@ -1,12 +1,11 @@
 /*
- * Snootlab SAS
+ * Snootlab
  *-----------------------------------------------------------------------------------------
  * Example of Joining a LoraWAN network and uplink some data.
  * This example is using "Over The Air" mode of LoraWAN specifications.
  * You have to get or to generate APPEUI, DEVEUI and DEVKEY.
  * You need to register these identifiers into the backend of your operator.
  * 
- * Nicolas Gonzalez <ngonzalez@snootlab.com>
  */
 
 #include <stdio.h>
