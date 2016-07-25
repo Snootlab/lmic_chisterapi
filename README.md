@@ -35,24 +35,30 @@ You have documentation on LMIC library and LoraWAN into the doc directory.
 Howto start
 ------------------
 Plug the ChisteraPi on your RaspberryPi.
-Power on and connect into your RaspberryPi with SSH. \\
-Clone the repository : \\
+
+Power on and connect into your RaspberryPi with SSH.
+
+Clone the repository :
+
 ```bash
 	git clone https://github.com/Snootlab/lmic_chisterapi
 ```
 
-Get into the repository and compile the example : \\
+Get into the repository and compile the example :
+
 ```bash
 	cd lmic_chisterapi
 ```
 
-Modify APPEUI, DEVEUI and DEVKEY with yours : \\
+Modify APPEUI, DEVEUI and DEVKEY with yours :
+
 ```bash
     nano src/OTAA_JoinAndTransmit.c
     make all	
 ```
 
 Execute the example :
+
 ```bash
 	sudo ./OTAA_JoinAndTransmit
 ```
