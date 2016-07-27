@@ -6,7 +6,7 @@ CFLAGS=-I lib/lmic
 LDFLAGS=-lwiringPi
 
 SRC=$(wildcard src/*.c)
-OBJ=$(SRC:%.c)
+OBJ=$(SRC:%.c=%.o)
 
 %.o:%.c
 	$(CC) $(CFLAGS) -c -o $@ $<
