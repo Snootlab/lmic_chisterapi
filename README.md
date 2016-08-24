@@ -46,6 +46,13 @@ Activation of the SPI :
 
 Then select "9 - Advanced Options" then "A5 - SPI" and <Yes>.
 
+The lmic_chisterapi library need the external library : wiringpi.
+If you don't have the library do :
+```bash
+    sudo apt-get update
+    sudo apt-get install wiringpi
+```
+
 Clone the repository :
 
 ```bash
