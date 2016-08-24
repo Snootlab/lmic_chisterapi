@@ -38,6 +38,14 @@ Plug the ChisteraPi on your RaspberryPi.
 
 Power on and connect into your RaspberryPi with SSH.
 
+Activation of the SPI :
+
+```bash
+    sudo raspi-config
+```
+
+Then select "9 - Advanced Options" then "A5 - SPI" and <Yes>.
+
 Clone the repository :
 
 ```bash
