@@ -41,8 +41,8 @@ Power on and connect into your RaspberryPi with SSH.
 The lmic_chisterapi library need the external library : wiringpi.
 If you don't have the library do :
 ```bash
-sudo apt-get update
-sudo apt-get install wiringpi
+    sudo apt-get update
+    sudo apt-get install wiringpi
 ```
 
 Clone the repository :
