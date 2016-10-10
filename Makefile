@@ -23,5 +23,5 @@ all: $(TARGET)
 .PHONY: clean
 clean:
 	@echo "\033[0;36mCleaning the project and libraries\033[0m"
-	rm -f $(TARGET)
+	rm -f $(TARGET) $(OBJ)
 	cd lib/lmic && make clean
